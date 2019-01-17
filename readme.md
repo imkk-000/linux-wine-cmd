@@ -11,7 +11,7 @@ apt install -y --install-recommends winehq-stable
 
 # download winetricks
 cd "${HOME}/Downloads"
-wget  https://raw.githubusercontent.com/Winetricks/winetricks/master/src/winetricks
+wget https://raw.githubusercontent.com/Winetricks/winetricks/master/src/winetricks
 chmod +x winetricks
 
 # download wine-mono
