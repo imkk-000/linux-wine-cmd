@@ -21,3 +21,6 @@ chmod +x winetricks
 WINEARCH=win32 WINEPREFIX=~/.wine32 sh winetricks dotnet40
 WINEARCH=win32 WINEPREFIX=~/.wine32 sh winetricks dotnet11
 ```
+## Issue fonts
+`Copy windows fonts (C:/Windows/Fonts) 
+to wine fonts (~/.wine32/drive_c/windows/Fonts or ~/.wine/drive_c/windows/Fonts)`
